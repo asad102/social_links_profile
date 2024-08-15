@@ -857,6 +857,18 @@ video {
   width: 100%;
 }
 
+.w-\[460px\] {
+  width: 460px;
+}
+
+.max-w-\[460px\] {
+  max-width: 460px;
+}
+
+.max-w-\[456px\] {
+  max-width: 456px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -2598,12 +2610,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:max-w-\[456px\] {
+    max-width: 456px;
+  }
+
   .md\:p-10 {
     padding: 2.5rem;
   }
 
   .md\:text-start {
     text-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-\[384px\] {
+    max-width: 384px;
   }
 }
 
